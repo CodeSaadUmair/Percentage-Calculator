@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percentage Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculate Your Percentage</h1>
+      <form name="f" id="calculator-container">
+        <input
+          type="number"
+          required
+          placeholder="Subject 1"
+          class="sub"
+          min="0"
+          max="100"
+        />
+
+        <input
+          type="number"
+          required
+          placeholder="Subject 2"
+          class="sub"
+          min="0"
+          max="100"
+        />
+      </form>
+      <h2 class="result"></h2>
+      <button class="btn add-btn">Add Subject</button>
+      <button class="btn rem-btn">Remove Subject</button>
+      <button type="submit" name="f" class="btn cal-btn">Calculate</button>
+      <h2 class="result"></h2>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
